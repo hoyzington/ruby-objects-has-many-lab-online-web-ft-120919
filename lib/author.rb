@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 class Author
+=======
+class 
+>>>>>>> cdf7972c419247fb2bdc1b0cf6201107e532711f
   
   attr_accessor :name
   
@@ -6,6 +10,7 @@ class Author
     @name = name
   end
   
+<<<<<<< HEAD
   def posts
     Post.all.select{|post| post.author == self}
   end
@@ -24,3 +29,6 @@ class Author
   end
   
 end
+=======
+end
+>>>>>>> cdf7972c419247fb2bdc1b0cf6201107e532711f
